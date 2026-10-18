@@ -195,7 +195,7 @@ export default function Home() {
 
       <section id="contact" className="container section contact">
         <h2 className="h2">Let&apos;s talk</h2>
-        <p className="lead">I&apos;m looking for Forward Deployed, Solutions and full-stack engineering roles where I can ship AI systems with customers.</p>
+        <p className="lead">I&apos;m looking for Forward Deployed, Solutions and full-stack engineering roles where I build and ship software side by side with customers.</p>
         <div className="cta">
           <a className="btn primary" href={`mailto:${profile.email}`}>
             {profile.email}

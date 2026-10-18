@@ -20,7 +20,7 @@ export const stats = [
   { value: "1,000+", label: "pharma shipments / month through my receiving module" },
   { value: "100,000+", label: "user actions audit-logged for 21 CFR Part 11" },
   { value: "99.9%", label: "uptime on AWS microservices" },
-  { value: "5", label: "AWS & Azure certifications" },
+  { value: "4", label: "AWS & Azure certifications" },
 ];
 
 export const fdeTraits = [
@@ -37,8 +37,8 @@ export const fdeTraits = [
     body: "I gather requirements across regions and stakeholders, design the services, and own CI/CD and monitoring once they're live.",
   },
   {
-    title: "AI-native workflow",
-    body: "I build with Claude Code using custom skills, connectors and MCP servers, and I ship LLM systems that have evals and guardrails, not just demos.",
+    title: "Modern engineering workflow",
+    body: "I build with Claude Code using custom skills, connectors and MCP servers, and I ship language-model systems that have evals and guardrails, not just demos.",
   },
 ];
 
@@ -84,7 +84,7 @@ export const qmsCase = {
 };
 
 export const applyPilot = {
-  eyebrow: "Open source · LLM agents",
+  eyebrow: "Open source · Agents",
   title: "ApplyPilot: a multi-agent job application pilot that doesn't make things up",
   summary:
     "Most auto-apply bots optimize for volume and invent experience. ApplyPilot finds roles through public ATS APIs, scores fit, tailors a resume with RAG over a bank of real experience, checks every claim against its source, and submits only when every confidence check passes. Everything else goes to a human review queue.",
@@ -96,7 +96,7 @@ export const applyPilot = {
     "MCP server, so Claude can run the whole job search by chat; Next.js dashboard with per-agent traces",
     "Hallucination eval: 6/7 fabrications caught by the deterministic layer, 0 faithful rewrites reverted",
   ],
-  stack: ["TypeScript", "Next.js", "Playwright", "SQLite", "Claude / OpenAI / Ollama", "MCP", "Zod", "Vitest"],
+  stack: ["TypeScript", "Next.js", "Playwright", "SQLite", "Claude / Ollama", "MCP", "Zod", "Vitest"],
   repo: "https://github.com/Gopal2233/applypilot",
 };
 
@@ -151,7 +151,7 @@ export const experience = [
 export const skills: Record<string, string[]> = {
   Languages: ["Java", "JavaScript", "TypeScript", "Python", "SQL", "Golang"],
   "Frameworks": ["Spring Boot", "React.js", "Next.js", "Node.js", "Express.js", "Flask", "PySpark"],
-  "AI & LLM": ["Claude Code", "MCP", "RAG", "LLM evals", "Prompt engineering", "Cursor"],
+  "LLM & Agents": ["Claude Code", "MCP", "RAG", "LLM evals", "Prompt engineering", "Cursor"],
   Cloud: ["AWS (ECS, EKS, Lambda, S3)", "Azure", "GCP", "Docker", "Terraform", "Jenkins", "GitHub Actions"],
   Data: ["MySQL", "PostgreSQL", "MongoDB", "Elasticsearch", "Teradata", "Redis"],
   "Observability & BI": ["Splunk", "Tableau", "Power BI", "QuickSight", "Birst"],
@@ -162,7 +162,6 @@ export const certifications = [
   "AWS Certified Cloud Practitioner",
   "Azure Administrator Associate (AZ-104)",
   "Azure Fundamentals (AZ-900)",
-  "Azure AI Fundamentals (AI-900)",
 ];
 
 export const education = [
